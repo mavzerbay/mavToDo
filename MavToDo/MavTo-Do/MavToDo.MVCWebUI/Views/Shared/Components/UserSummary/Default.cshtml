@@ -1,0 +1,20 @@
+﻿@model UserDetailsViewModel
+
+<ul class="nav pull-right">
+    <li class="dropdown">
+
+        @if (!string.IsNullOrEmpty(Model.UserName))
+        {<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Welcome @Model.UserName
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a asp-controller="Account" asp-action="Logout"><i class="glyphicon glyphicon-share-alt"></i>Log out</a></li>
+            </ul>
+
+        }
+    </li>
+
+
+</ul>
+

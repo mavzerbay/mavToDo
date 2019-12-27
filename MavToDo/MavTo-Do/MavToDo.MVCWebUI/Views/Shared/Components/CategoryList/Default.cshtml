@@ -1,0 +1,29 @@
+﻿@using Microsoft.AspNetCore.Http
+@model CategoryListViewModel
+
+    <div class="span3">
+        <div class="sidebar">
+            <ul class="widget widget-menu unstyled">
+                @foreach (var category in Model.Categories)
+                {
+                    var css = string.Empty;
+                    if (category.CategoryId == Model.CurrentCategory)
+                    {
+                        css += "active";
+                    }
+
+                    <li class="@css">
+                        <a href="/things/index?category=@category.CategoryId&menu=@category.CategoryName">
+                            @category.CategoryName
+                        </a>
+                    </li>
+
+                }   
+
+
+            </ul>
+            <!--/.widget-nav-->
+        </div>
+        <!--/.sidebar-->
+    </div>
+

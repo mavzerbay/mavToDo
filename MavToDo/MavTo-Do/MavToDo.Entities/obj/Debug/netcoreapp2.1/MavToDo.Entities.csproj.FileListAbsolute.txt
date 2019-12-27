@@ -1,0 +1,11 @@
+Q:\source\repos\MavTo-Do\MavToDo.Entities\bin\Debug\netcoreapp2.1\MavToDo.Entities.deps.json
+Q:\source\repos\MavTo-Do\MavToDo.Entities\bin\Debug\netcoreapp2.1\MavToDo.Entities.dll
+Q:\source\repos\MavTo-Do\MavToDo.Entities\bin\Debug\netcoreapp2.1\MavToDo.Entities.pdb
+Q:\source\repos\MavTo-Do\MavToDo.Entities\bin\Debug\netcoreapp2.1\Mav.Core.dll
+Q:\source\repos\MavTo-Do\MavToDo.Entities\bin\Debug\netcoreapp2.1\Mav.Core.pdb
+Q:\source\repos\MavTo-Do\MavToDo.Entities\obj\Debug\netcoreapp2.1\MavToDo.Entities.csprojAssemblyReference.cache
+Q:\source\repos\MavTo-Do\MavToDo.Entities\obj\Debug\netcoreapp2.1\MavToDo.Entities.AssemblyInfoInputs.cache
+Q:\source\repos\MavTo-Do\MavToDo.Entities\obj\Debug\netcoreapp2.1\MavToDo.Entities.AssemblyInfo.cs
+Q:\source\repos\MavTo-Do\MavToDo.Entities\obj\Debug\netcoreapp2.1\MavToDo.Entities.csproj.CopyComplete
+Q:\source\repos\MavTo-Do\MavToDo.Entities\obj\Debug\netcoreapp2.1\MavToDo.Entities.dll
+Q:\source\repos\MavTo-Do\MavToDo.Entities\obj\Debug\netcoreapp2.1\MavToDo.Entities.pdb

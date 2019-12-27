@@ -1,0 +1,58 @@
+﻿@model MavToDo.MVCWebUI.Models.ThingsAddViewModel
+
+@{
+    ViewData["Title"] = "AddThings";
+    Layout = "~/Views/Shared/code/_OperationLayout.cshtml";
+}
+
+<h2>AddThings</h2>
+<hr />
+<div class="row">
+    <div class="span4">
+        <form asp-action="AddThings" asp-controller="Things" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <span asp-validation-for="@Model.ThingsToDo.ThingsToDoName" class="text-danger small"></span>
+            <div class="input-group form-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-id-card"></i></span>
+                </div>
+                <input asp-for="@Model.ThingsToDo.ThingsToDoName" class="form-control" placeholder="To do name">
+            </div>
+
+            <span asp-validation-for="@Model.ThingsToDo.ThingsToDoStart" class="text-danger small"></span>
+            <div class="input-group form-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-date"></i></span>
+                </div>
+                <input asp-for="@Model.ThingsToDo.ThingsToDoStart" class="form-control" placeholder="Start date">
+            </div>
+
+            <span asp-validation-for="@Model.ThingsToDo.ThingsToDoEnd" class="text-danger small"></span>
+            <div class="input-group form-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-users"></i></span>
+                </div>
+                <input asp-for="@Model.ThingsToDo.ThingsToDoEnd" class="form-control" placeholder="End date">
+            </div>
+            <input type="hidden" asp-for="CategoryId" />
+
+            <span asp-validation-for="@Model.ThingsToDo.ThingsToDoColor" class="text-danger small"></span>
+            <div class="input-group form-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-lock-open"></i></span>
+                </div>
+                <input type="color" asp-for="@Model.ThingsToDo.ThingsToDoColor" class="form-control" placeholder="Color">
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn float-right login_btn">
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" asp-controller="Home">Back to Home</a>
+</div>
+}

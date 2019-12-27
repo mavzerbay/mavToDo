@@ -1,0 +1,13 @@
+Q:\source\repos\MavTo-Do\MavToDo.DataAccess\bin\Debug\netcoreapp2.1\MavToDo.DataAccess.deps.json
+Q:\source\repos\MavTo-Do\MavToDo.DataAccess\bin\Debug\netcoreapp2.1\MavToDo.DataAccess.dll
+Q:\source\repos\MavTo-Do\MavToDo.DataAccess\bin\Debug\netcoreapp2.1\MavToDo.DataAccess.pdb
+Q:\source\repos\MavTo-Do\MavToDo.DataAccess\bin\Debug\netcoreapp2.1\Mav.Core.dll
+Q:\source\repos\MavTo-Do\MavToDo.DataAccess\bin\Debug\netcoreapp2.1\MavToDo.Entities.dll
+Q:\source\repos\MavTo-Do\MavToDo.DataAccess\bin\Debug\netcoreapp2.1\Mav.Core.pdb
+Q:\source\repos\MavTo-Do\MavToDo.DataAccess\bin\Debug\netcoreapp2.1\MavToDo.Entities.pdb
+Q:\source\repos\MavTo-Do\MavToDo.DataAccess\obj\Debug\netcoreapp2.1\MavToDo.DataAccess.csprojAssemblyReference.cache
+Q:\source\repos\MavTo-Do\MavToDo.DataAccess\obj\Debug\netcoreapp2.1\MavToDo.DataAccess.AssemblyInfoInputs.cache
+Q:\source\repos\MavTo-Do\MavToDo.DataAccess\obj\Debug\netcoreapp2.1\MavToDo.DataAccess.AssemblyInfo.cs
+Q:\source\repos\MavTo-Do\MavToDo.DataAccess\obj\Debug\netcoreapp2.1\MavToDo.DataAccess.csproj.CopyComplete
+Q:\source\repos\MavTo-Do\MavToDo.DataAccess\obj\Debug\netcoreapp2.1\MavToDo.DataAccess.dll
+Q:\source\repos\MavTo-Do\MavToDo.DataAccess\obj\Debug\netcoreapp2.1\MavToDo.DataAccess.pdb

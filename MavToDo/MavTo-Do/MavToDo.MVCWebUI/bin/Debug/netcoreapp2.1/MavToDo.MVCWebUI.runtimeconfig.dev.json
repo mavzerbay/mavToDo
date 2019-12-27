@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\wolft\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\wolft\\.nuget\\packages"
+    ]
+  }
+}

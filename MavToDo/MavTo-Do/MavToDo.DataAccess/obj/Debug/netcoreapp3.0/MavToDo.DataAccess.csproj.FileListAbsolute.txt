@@ -1,0 +1,6 @@
+Q:\source\repos\MavTo-Do\MavToDo.DataAccess\bin\Debug\netcoreapp3.0\Mav.Core.dll
+Q:\source\repos\MavTo-Do\MavToDo.DataAccess\bin\Debug\netcoreapp3.0\MavToDo.Entities.dll
+Q:\source\repos\MavTo-Do\MavToDo.DataAccess\bin\Debug\netcoreapp3.0\Mav.Core.pdb
+Q:\source\repos\MavTo-Do\MavToDo.DataAccess\obj\Debug\netcoreapp3.0\MavToDo.DataAccess.csprojAssemblyReference.cache
+Q:\source\repos\MavTo-Do\MavToDo.DataAccess\obj\Debug\netcoreapp3.0\MavToDo.DataAccess.AssemblyInfoInputs.cache
+Q:\source\repos\MavTo-Do\MavToDo.DataAccess\obj\Debug\netcoreapp3.0\MavToDo.DataAccess.AssemblyInfo.cs

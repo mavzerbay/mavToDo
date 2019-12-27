@@ -1,0 +1,192 @@
+{
+  "format": 1,
+  "restore": {
+    "Q:\\source\\repos\\MavTo-Do\\MavToDo.DataAccess\\MavToDo.DataAccess.csproj": {}
+  },
+  "projects": {
+    "Q:\\source\\repos\\MavTo-Do\\MavToDo.DataAccess\\MavToDo.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Q:\\source\\repos\\MavTo-Do\\MavToDo.DataAccess\\MavToDo.DataAccess.csproj",
+        "projectName": "MavToDo.DataAccess",
+        "projectPath": "Q:\\source\\repos\\MavTo-Do\\MavToDo.DataAccess\\MavToDo.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\wolft\\.nuget\\packages\\",
+        "outputPath": "Q:\\source\\repos\\MavTo-Do\\MavToDo.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wolft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "Q:\\source\\repos\\MavTo-Do\\MavToDo.Entities\\MavToDo.Entities.csproj": {
+                "projectPath": "Q:\\source\\repos\\MavTo-Do\\MavToDo.Entities\\MavToDo.Entities.csproj"
+              },
+              "Q:\\source\\repos\\Mav\\Mav.Core\\Mav.Core.csproj": {
+                "projectPath": "Q:\\source\\repos\\Mav\\Mav.Core\\Mav.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Q:\\source\\repos\\MavTo-Do\\MavToDo.Entities\\MavToDo.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Q:\\source\\repos\\MavTo-Do\\MavToDo.Entities\\MavToDo.Entities.csproj",
+        "projectName": "MavToDo.Entities",
+        "projectPath": "Q:\\source\\repos\\MavTo-Do\\MavToDo.Entities\\MavToDo.Entities.csproj",
+        "packagesPath": "C:\\Users\\wolft\\.nuget\\packages\\",
+        "outputPath": "Q:\\source\\repos\\MavTo-Do\\MavToDo.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wolft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "Q:\\source\\repos\\Mav\\Mav.Core\\Mav.Core.csproj": {
+                "projectPath": "Q:\\source\\repos\\Mav\\Mav.Core\\Mav.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Q:\\source\\repos\\Mav\\Mav.Core\\Mav.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Q:\\source\\repos\\Mav\\Mav.Core\\Mav.Core.csproj",
+        "projectName": "Mav.Core",
+        "projectPath": "Q:\\source\\repos\\Mav\\Mav.Core\\Mav.Core.csproj",
+        "packagesPath": "C:\\Users\\wolft\\.nuget\\packages\\",
+        "outputPath": "Q:\\source\\repos\\Mav\\Mav.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wolft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

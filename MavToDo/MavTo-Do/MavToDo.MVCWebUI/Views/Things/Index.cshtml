@@ -1,0 +1,42 @@
+﻿@using MavToDo.Business.Abstract
+@using Microsoft.AspNetCore.Http
+@model ThingsToDoListViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/code/_OperationLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-8">
+        <h6>@Model.CurrentName</h6>
+    </div>
+    <div class="col-md-3">
+        <a asp-controller="Things" asp-action="AddThings" asp-route-categoryId="@Model.CurrentCategory" class="float-right btn btn-success"><i class="fas fa-plus"></i> Add somethings to do</a>
+    </div>
+    
+</div>
+<table class="table table-striped">
+    <tr>
+        <th>To-Do Name</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+        <th>Color</th>
+        <th></th>
+    </tr>
+    @foreach (var things in Model.ThingsToDos)
+    {
+        <tr style="background: @things.ThingsToDoColor">
+            <td>@things.ThingsToDoName</td>
+            <td>@things.ThingsToDoStart</td>
+            <td>@things.ThingsToDoEnd</td>
+            <td>@things.ThingsToDoColor</td>
+            <td><a class="btn btn-danger" asp-controller="Things" asp-action="Delete" asp-route-thingsId="@things.ThingsToDoId"><i class="fas fa-times"></i> Delete</a></td>
+        </tr>
+    }
+</table>
+
+<things-list-pager class="pagination"
+                   current-category="@Model.CurrentCategory"
+                   current-page="@Model.CurrentPage"
+                   page-count="@Model.PageCount"
+                   page-size="@Model.PageSize"></things-list-pager>
